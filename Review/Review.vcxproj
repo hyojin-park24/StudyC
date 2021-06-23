@@ -18,14 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="05-2.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1f65363f-7dbc-4a9d-8156-2540273fa60b}</ProjectGuid>
-    <RootNamespace>ReviewStudyC</RootNamespace>
+    <ProjectGuid>{407942f6-e2c9-426f-be5b-697c8d174b28}</ProjectGuid>
+    <RootNamespace>Review</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,6 +138,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="clacuration.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
