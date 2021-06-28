@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="06-2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="06-1.cpp">
+    <ClCompile Include="피라미드.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
